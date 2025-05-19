@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+    color: #2c3e50;
+    direction: rtl;
+  }
+
+  .container {
+    background-color: #fff;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #3498db;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  h1 {
+    color: #2c3e50;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    color: #34495e;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 8px;
+    margin-top: 30px;
+    font-size: 24px;
+    text-align: right;
+  }
+
+  .contact-info {
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: right;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+  }
+
+  ul li {
+    padding: 8px 0;
+    border-bottom: 1px dashed #ddd;
+    font-size: 16px;
+  }
+
+  .section {
+    margin-bottom: 30px;
+  }
+
+  .highlight {
+    color: #2980b9;
+    font-weight: bold;
+  }
+
+  .badge {
+    background-color: #3498db;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 5px;
+  }
